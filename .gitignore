@@ -1,0 +1,89 @@
+# Node.js modulok
+node_modules/
+
+# Npm log fájlok
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Függőség-gyorsítótárak
+.npm
+.pnpm
+.yarn
+
+# Átmeneti fájlok és mappák
+tmp/
+temp/
+out/
+
+# Build mappák
+dist/
+build/
+
+# Környezeti változók fájlok
+.env
+.env.test
+.env.production
+.env.local
+
+# Eslint gyorsítótár
+.eslintcache
+
+# Prettier gyorsítótár
+.prettierignore
+
+# TypeScript build információk
+*.tsbuildinfo
+
+# IDE beállítások
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS specifikus fájlok
+.DS_Store
+
+# Windows specifikus fájlok
+Thumbs.db
+
+# Log fájlok
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Lokális környezeti beállítások
+local.env
+
+# Parcel cache
+.cache/
+
+# Jest teszt lefedettség
+coverage/
+
+# SvelteKit build mappa
+.svelte-kit/
+
+# Next.js build mappa
+.next/
+
+# Nuxt.js build mappa
+.nuxt/
+
+# React Native mappa
+.expo/
+
+# Editorconfig
+.editorconfig
+
+# Stylint gyorsítótár
+.stylelintcache
+
+# Git-merge konfliktus fájlok
+*.orig
+
