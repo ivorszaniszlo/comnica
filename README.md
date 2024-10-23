@@ -5,12 +5,11 @@
 * [Description](#description)
 * [Screenshot](#screenshot)
 * [Technologies](#technologies)
-* [Setup & Start](#setup)
+* [Setup & Start](#setup-start)
 * [State](#state)
 * [Routes](#routes)
 * [To Test](#to-test)
 * [Directory Structure](#directory-structure)
-* [Documentation](#documentation)
 * [Deploy](#deploy)
 * [Created](#created)
 * [License](#license)
@@ -29,14 +28,14 @@ JavaScript fetchdata.js and React test assignment for Comnica
 
 ## Technologies <a id="technologies"></a>
 
-* Node.js - version 14.x or higher
+* Node.js - version 18.x or higher
 * React - Frontend Library
 * Vite.js - Build tool
 * Tailwind CSS - Styling
 * MUI - React component Library
 * Cypress - End-to-End testing framework for responsive design
 
-## Setup & Start <a id="setup"></a>
+## Setup & Start <a id="setup-start"></a>
 
 * Clone or download the repository:
 
@@ -131,8 +130,6 @@ Cypress is used for automated responsive testing. The tests simulate different s
 └── vite.config.js
 
 ```
-
-## Documentation <a id="documentation"></a>
 
 ## Deploy <a id="deploy"></a>
 
