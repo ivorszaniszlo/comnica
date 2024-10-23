@@ -30,17 +30,13 @@ JavaScript fetchdata.js and React test assignment for Comnica
 
 * Node.js - version 18.x or higher
 * React - Frontend Library
+* Typescript - Javascript library
 * Vite.js - Build tool
 * Tailwind CSS - Styling
-* MUI - React component Library
+* MaterialUI - React component Library
 * Cypress - End-to-End testing framework for responsive design
 * Jest - JavaScript Testing Framework
 * Babel - JavaScript Compiler
-* React - Frontend Library
-* Vite.js - Build tool
-* Tailwind CSS - Styling
-* MUI - React component Library
-* Cypress - End-to-End testing framework for responsive design
 
 ## Setup & Start <a id="setup-start"></a>
 
