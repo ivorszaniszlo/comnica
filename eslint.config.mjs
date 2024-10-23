@@ -26,7 +26,7 @@ export default [
       ...js.configs.recommended.rules,
       ...typescriptPlugin.configs.recommended.rules,
       ...react.configs.recommended.rules,
-      "prettier/prettier": "error",
+      "prettier/prettier": ["error", { endOfLine: "auto" }],
     },
   },
 ];
