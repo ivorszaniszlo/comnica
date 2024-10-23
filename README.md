@@ -34,6 +34,13 @@ JavaScript fetchdata.js and React test assignment for Comnica
 * Tailwind CSS - Styling
 * MUI - React component Library
 * Cypress - End-to-End testing framework for responsive design
+* Jest - JavaScript Testing Framework
+* Babel - JavaScript Compiler
+* React - Frontend Library
+* Vite.js - Build tool
+* Tailwind CSS - Styling
+* MUI - React component Library
+* Cypress - End-to-End testing framework for responsive design
 
 ## Setup & Start <a id="setup-start"></a>
 
@@ -101,6 +108,42 @@ Cypress is used for automated responsive testing. The tests simulate different s
     npx cypress run
     ```
 
+### Run Unit Tests with Jest:
+
+1. Install Jest:
+
+    ```sh
+    npm install --save-dev jest
+    ```
+
+2. Run Jest tests:
+
+    ```sh
+    npm run test
+    ```
+
+3. The unit tests for the `fetchUsersAndAssignColors` function are located in the `tests/fetchUsersAndAssignColors.test.js` file.
+
+## Running `fetchUsersAndAssignColors.js` in the Browser
+
+To run the `fetchUsersAndAssignColors.js` file in a browser environment:
+
+1. Copy the function code from `fetchUsersAndAssignColors.js` and paste it into the browser's developer console.
+
+2. Remove the `export default` statement, and directly call the function like so:
+
+    ```javascript
+    fetchUsersAndAssignColors()
+      .then((usersWithColors) => {
+        console.log('Users with colors:', usersWithColors);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+    ```
+
+3. Open the developer console in your browser (`F12` or `Ctrl+Shift+I`), paste the modified code, and run it.
+
 ## Directory Structure <a id="directory-structure"></a>
 
 ```plaintext
@@ -114,6 +157,8 @@ Cypress is used for automated responsive testing. The tests simulate different s
 │   ├── favicon.ico
 │   └── index.html
 ├── src
+│   ├── helpers
+│   │   └── fetchUsersAndAssignColors.js         # Helper functions, including fetchUsersAndAssignColors
 │   ├── assets
 │   │   └── SVG files...
 │   ├── components
@@ -121,14 +166,12 @@ Cypress is used for automated responsive testing. The tests simulate different s
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
-├── fetchdata.js
-├── doc
-│   ├── specification.md         # Project specifications in Hungarian
+├── tests
+│   └── fetchUsersAndAssignColors.test.js # Unit tests for fetchUsersAndAssignColors function using Jest
 ├── package.json
 ├── README.md
 ├── eslint.config.mjs
 └── vite.config.js
-
 ```
 
 ## Deploy <a id="deploy"></a>
