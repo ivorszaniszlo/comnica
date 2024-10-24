@@ -33,10 +33,10 @@ JavaScript fetchdata.js and React test assignment for Comnica
 * Typescript - Javascript library
 * Vite.js - Build tool
 * Tailwind CSS - Styling
-* MaterialUI - React component Library
 * Cypress - End-to-End testing framework for responsive design
 * Jest - JavaScript Testing Framework
 * Babel - JavaScript Compiler
+* lazySizes - VanillaJS library
 
 ## Setup & Start <a id="setup-start"></a>
 
@@ -80,7 +80,7 @@ The application's state is managed with React's `useState` hooks.
 
 ## To Test <a id="to-test"></a>
 
-Cypress is used for automated responsive testing. The tests simulate different screen sizes, such as mobile and desktop views, to ensure the application is properly responsive.
+Cypress is used for automated responsive testing. The tests simulate different screen sizes, such as mobile, tablet, and desktop views, across multiple browsers to ensure the application is properly responsive.
 
 ### Run Cypress tests:
 
@@ -96,13 +96,39 @@ Cypress is used for automated responsive testing. The tests simulate different s
     npx cypress open
     ```
 
-3. Cypress will open a test interface. Select the **responsive.cy.js** test file located in the **`cypress/e2e/`** folder to test the responsiveness of the application.
+3. Cypress will open a test interface. Select the **responsive.cy.js** test file located in the **`cypress/e2e/`** folder to test the responsiveness of the application across different screen sizes (iPhone 14, iPad Pro M2, desktop).
 
 4. Alternatively, to run Cypress tests in headless mode, use:
 
     ```sh
     npx cypress run
     ```
+
+### Test on Multiple Browsers:
+
+Cypress allows you to run tests on multiple browsers, including Chrome, Edge, and Firefox.
+
+To run tests on specific browsers, use the following commands:
+
+1. **Run on Chrome**:
+
+    ```sh
+    npx cypress run --browser chrome
+    ```
+
+2. **Run on Edge**:
+
+    ```sh
+    npx cypress run --browser edge
+    ```
+
+3. **Run on Firefox**:
+
+    ```sh
+    npx cypress run --browser firefox
+    ```
+
+> **Note:** Although Safari is not natively supported by Cypress, you can use **Firefox** (which is based on a similar rendering engine as Safari) for similar results.
 
 ### Run Unit Tests with Jest:
 
@@ -120,7 +146,7 @@ Cypress is used for automated responsive testing. The tests simulate different s
 
 3. The unit tests for the `fetchUsersAndAssignColors` function are located in the `tests/fetchUsersAndAssignColors.test.js` file.
 
-## Running `fetchUsersAndAssignColors.js` in the Browser
+### Running `fetchUsersAndAssignColors.js` in the Browser
 
 To run the `fetchUsersAndAssignColors.js` file in a browser environment:
 
@@ -153,20 +179,35 @@ To run the `fetchUsersAndAssignColors.js` file in a browser environment:
 │   ├── favicon.ico
 │   └── index.html
 ├── src
-│   ├── helpers
-│   │   └── fetchUsersAndAssignColors.js         # Helper functions, including fetchUsersAndAssignColors
 │   ├── assets
 │   │   └── SVG files...
 │   ├── components
-│   │   ├──
-│   ├── App.jsx
+│   │   ├──Aside
+│   │   │    └── Aside.tsx
+│   │   ├──Button
+│   │   │    └── Button.tsx
+│   │   ├──Container
+│   │   │    └── Container.tsx
+│   │   └──Header
+│   │        └── Header.tsx
+│   ├── helpers
+│   │   └── fetchUsersAndAssignColors.js         # Helper functions
+│   ├── App.tsx
 │   ├── index.css
 │   └── main.jsx
 ├── tests
 │   └── fetchUsersAndAssignColors.test.js # Unit tests for fetchUsersAndAssignColors function using Jest
+├── .gitignore
+├── .prettierrc
+├── babel.config.json
+├── cypress.config.js
+├── eslint.config.js
+├── index.html
+├── jest.config.js
 ├── package.json
+├── postcss.config.js
 ├── README.md
-├── eslint.config.mjs
+├── tailwind.config.js
 └── vite.config.js
 ```
 
