@@ -233,7 +233,7 @@ You can deploy this application using **Surge**:
 
 * Check out Surge's [documentation](https://surge.sh/) for more details.
 
-* Deployed on [ivor-weather-forecast.surge.sh](https://ivor-comnica.surge.sh)
+* Deployed on [ivor-comnica.surge.sh](https://ivor-comnica.surge.sh)
 
 ## Created <a id="created"></a>
 
