@@ -176,8 +176,8 @@ To run the `fetchUsersAndAssignColors.js` file in a browser environment:
 │   ├── fixtures
 │   ├── support
 ├── public
-│   ├── favicon.ico
-│   └── index.html
+│   ├── assets
+│   │   └──logo.svg
 ├── src
 │   ├── components
 │   │   ├──Aside
