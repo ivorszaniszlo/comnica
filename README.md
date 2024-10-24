@@ -179,8 +179,6 @@ To run the `fetchUsersAndAssignColors.js` file in a browser environment:
 │   ├── favicon.ico
 │   └── index.html
 ├── src
-│   ├── assets
-│   │   └── SVG files...
 │   ├── components
 │   │   ├──Aside
 │   │   │    └── Aside.tsx
@@ -235,7 +233,7 @@ You can deploy this application using **Surge**:
 
 * Check out Surge's [documentation](https://surge.sh/) for more details.
 
-* Deployed on [ivor-weather-forecast.surge.sh](https://ivor-comnica.surge.sh/)
+* Deployed on [ivor-weather-forecast.surge.sh](https://ivor-comnica.surge.sh)
 
 ## Created <a id="created"></a>
 

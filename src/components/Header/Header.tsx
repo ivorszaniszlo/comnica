@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="flex items-center mt-2 ml-2">
         <img
           className="w-36 h-auto animate-fade-in lazyload"
-          data-src="/src/assets/logo.svg"
+          data-src="/assets/logo.svg"
           alt="Comnica Logo"
         />
       </div>
