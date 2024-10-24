@@ -1,41 +1,41 @@
-# Node.js modulok
+# Node.js modules
 node_modules/
 
-# Npm log fájlok
+# Npm log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Függőség-gyorsítótárak
+# Dependency caches
 .npm
 .pnpm
 .yarn
 
-# Átmeneti fájlok és mappák
+# Temporary files and folders
 tmp/
 temp/
 out/
 
-# Build mappák
+# Build folders
 dist/
 build/
 
-# Környezeti változók fájlok
+# Environment variable files
 .env
 .env.test
 .env.production
 .env.local
 
-# Eslint gyorsítótár
+# ESLint cache
 .eslintcache
 
-# Prettier gyorsítótár
+# Prettier cache
 .prettierignore
 
-# TypeScript build információk
+# TypeScript build info
 *.tsbuildinfo
 
-# IDE beállítások
+# IDE settings
 .vscode/
 .idea/
 *.suo
@@ -44,46 +44,45 @@ build/
 *.sln
 *.sw?
 
-# MacOS specifikus fájlok
+# macOS specific files
 .DS_Store
 
-# Windows specifikus fájlok
+# Windows specific files
 Thumbs.db
 
-# Log fájlok
+# Log files
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 lerna-debug.log*
 
-# Lokális környezeti beállítások
+# Local environment settings
 local.env
 
 # Parcel cache
 .cache/
 
-# Jest teszt lefedettség
+# Jest test coverage
 coverage/
 
-# SvelteKit build mappa
+# SvelteKit build folder
 .svelte-kit/
 
-# Next.js build mappa
+# Next.js build folder
 .next/
 
-# Nuxt.js build mappa
+# Nuxt.js build folder
 .nuxt/
 
-# React Native mappa
+# React Native folder
 .expo/
 
 # Editorconfig
 .editorconfig
 
-# Stylint gyorsítótár
+# Stylint cache
 .stylelintcache
 
-# Git-merge konfliktus fájlok
+# Git-merge conflict files
 *.orig
-
